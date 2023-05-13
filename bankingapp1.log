@@ -1,0 +1,129 @@
+"2023-05-12 11:46:28 [restartedMain] INFO  c.b.d.BankingApplication3Application - Starting BankingApplication3Application using Java 18.0.2 on LTIN328488 with PID 6624 (C:\Users\2157945\eclipse-workspace2\bankingApplication-3\target\classes started by 2157945 in C:\Users\2157945\eclipse-workspace2\bankingApplication-3)
+""2023-05-12 11:46:28 [restartedMain] DEBUG c.b.d.BankingApplication3Application - Running with Spring Boot v2.7.11, Spring v5.3.27
+""2023-05-12 11:46:28 [restartedMain] INFO  c.b.d.BankingApplication3Application - No active profile set, falling back to 1 default profile: "default"
+""2023-05-12 11:46:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2023-05-12 11:46:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2023-05-12 11:46:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-05-12 11:46:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 4 JPA repository interfaces.
+""2023-05-12 11:46:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-05-12 11:46:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-05-12 11:46:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+""2023-05-12 11:46:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-05-12 11:46:31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2563 ms
+""2023-05-12 11:46:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-05-12 11:46:31 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-05-12 11:46:31 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""2023-05-12 11:46:31 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-05-12 11:46:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-05-12 11:46:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-05-12 11:46:32 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2023-05-12 11:46:33 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-05-12 11:46:33 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-05-12 11:46:33 [restartedMain] DEBUG com.banks.demo.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+""2023-05-12 11:46:34 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1bdfa21, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a620b64, org.springframework.security.web.context.SecurityContextPersistenceFilter@4155f54f, org.springframework.security.web.header.HeaderWriterFilter@3832e0ed, org.springframework.security.web.authentication.logout.LogoutFilter@69bb9d2b, com.banks.demo.jwt.JwtFilter@55af6fd0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bc0a57e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cec72fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50d63723, org.springframework.security.web.session.SessionManagementFilter@b6fd6c, org.springframework.security.web.access.ExceptionTranslationFilter@4f050316, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32a76b1]
+""2023-05-12 11:46:34 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2023-05-12 11:46:34 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""2023-05-12 11:46:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-05-12 11:46:34 [restartedMain] INFO  c.b.d.BankingApplication3Application - Started BankingApplication3Application in 7.013 seconds (JVM running for 7.613)
+""2023-05-12 15:02:54 [restartedMain] INFO  c.b.d.BankingApplication3Application - Starting BankingApplication3Application using Java 18.0.2 on LTIN328488 with PID 1140 (C:\Users\2157945\eclipse-workspace2\bankingApplication-3\target\classes started by 2157945 in C:\Users\2157945\eclipse-workspace2\bankingApplication-3)
+""2023-05-12 15:02:54 [restartedMain] DEBUG c.b.d.BankingApplication3Application - Running with Spring Boot v2.7.11, Spring v5.3.27
+""2023-05-12 15:02:54 [restartedMain] INFO  c.b.d.BankingApplication3Application - No active profile set, falling back to 1 default profile: "default"
+""2023-05-12 15:02:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2023-05-12 15:02:54 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2023-05-12 15:02:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-05-12 15:02:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 4 JPA repository interfaces.
+""2023-05-12 15:02:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-05-12 15:02:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-05-12 15:02:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+""2023-05-12 15:02:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-05-12 15:02:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2780 ms
+""2023-05-12 15:02:57 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-05-12 15:02:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-05-12 15:02:57 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""2023-05-12 15:02:57 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-05-12 15:02:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-05-12 15:02:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-05-12 15:02:58 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2023-05-12 15:02:59 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-05-12 15:02:59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-05-12 15:03:00 [restartedMain] DEBUG com.banks.demo.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+""2023-05-12 15:03:00 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7acd8351, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7322c55f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cec72fb, org.springframework.security.web.header.HeaderWriterFilter@9a22d77, org.springframework.security.web.authentication.logout.LogoutFilter@6ae723c9, com.banks.demo.jwt.JwtFilter@56fddb94, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@758a8e95, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5635c984, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@689c2f8e, org.springframework.security.web.session.SessionManagementFilter@237d0430, org.springframework.security.web.access.ExceptionTranslationFilter@7f0a5b72, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4af001da]
+""2023-05-12 15:03:01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2023-05-12 15:03:01 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""2023-05-12 15:03:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-05-12 15:03:01 [restartedMain] INFO  c.b.d.BankingApplication3Application - Started BankingApplication3Application in 7.82 seconds (JVM running for 8.429)
+""2023-05-12 15:04:52 [restartedMain] INFO  c.b.d.BankingApplication3Application - Starting BankingApplication3Application using Java 18.0.2 on LTIN328488 with PID 19408 (C:\Users\2157945\eclipse-workspace2\bankingApplication-3\target\classes started by 2157945 in C:\Users\2157945\eclipse-workspace2\bankingApplication-3)
+""2023-05-12 15:04:52 [restartedMain] DEBUG c.b.d.BankingApplication3Application - Running with Spring Boot v2.7.11, Spring v5.3.27
+""2023-05-12 15:04:52 [restartedMain] INFO  c.b.d.BankingApplication3Application - No active profile set, falling back to 1 default profile: "default"
+""2023-05-12 15:04:52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2023-05-12 15:04:52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2023-05-12 15:04:53 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-05-12 15:04:53 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 4 JPA repository interfaces.
+""2023-05-12 15:04:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-05-12 15:04:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-05-12 15:04:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+""2023-05-12 15:04:54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-05-12 15:04:54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2292 ms
+""2023-05-12 15:04:54 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-05-12 15:04:54 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-05-12 15:04:54 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""2023-05-12 15:04:54 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-05-12 15:04:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-05-12 15:04:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-05-12 15:04:55 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2023-05-12 15:04:56 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-05-12 15:04:56 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-05-12 15:04:56 [restartedMain] DEBUG com.banks.demo.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+""2023-05-12 15:04:57 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@42f16af3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dcf6f71, org.springframework.security.web.context.SecurityContextPersistenceFilter@32dc77f2, org.springframework.security.web.header.HeaderWriterFilter@2fddb5be, org.springframework.security.web.authentication.logout.LogoutFilter@57e7ce28, com.banks.demo.jwt.JwtFilter@6f365fcd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1edd18c3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f4fd178, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67e3602a, org.springframework.security.web.session.SessionManagementFilter@6af3146b, org.springframework.security.web.access.ExceptionTranslationFilter@6e6a63e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32402a23]
+""2023-05-12 15:04:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2023-05-12 15:04:57 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""2023-05-12 15:04:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-05-12 15:04:58 [restartedMain] INFO  c.b.d.BankingApplication3Application - Started BankingApplication3Application in 6.409 seconds (JVM running for 7.009)
+""2023-05-12 15:41:48 [restartedMain] INFO  c.b.d.BankingApplication3Application - Starting BankingApplication3Application using Java 18.0.2 on LTIN328488 with PID 16352 (C:\Users\2157945\eclipse-workspace2\bankingApplication-3\target\classes started by 2157945 in C:\Users\2157945\eclipse-workspace2\bankingApplication-3)
+""2023-05-12 15:41:48 [restartedMain] DEBUG c.b.d.BankingApplication3Application - Running with Spring Boot v2.7.11, Spring v5.3.27
+""2023-05-12 15:41:48 [restartedMain] INFO  c.b.d.BankingApplication3Application - No active profile set, falling back to 1 default profile: "default"
+""2023-05-12 15:41:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2023-05-12 15:41:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2023-05-12 15:41:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-05-12 15:41:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 4 JPA repository interfaces.
+""2023-05-12 15:41:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-05-12 15:41:50 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-05-12 15:41:50 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+""2023-05-12 15:41:51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-05-12 15:41:51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2138 ms
+""2023-05-12 15:41:51 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-05-12 15:41:51 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-05-12 15:41:51 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""2023-05-12 15:41:51 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-05-12 15:41:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-05-12 15:41:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-05-12 15:41:51 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2023-05-12 15:41:52 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-05-12 15:41:52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-05-12 15:41:53 [restartedMain] DEBUG com.banks.demo.jwt.JwtFilter - Filter 'jwtFilter' configured for use
+""2023-05-12 15:41:54 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4135cc90, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a860c1e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6af3146b, org.springframework.security.web.header.HeaderWriterFilter@5c6e3588, org.springframework.security.web.authentication.logout.LogoutFilter@7737bbab, com.banks.demo.jwt.JwtFilter@2ad49f79, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@764290d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6965f55b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@636a9dbd, org.springframework.security.web.session.SessionManagementFilter@34e5515e, org.springframework.security.web.access.ExceptionTranslationFilter@4ad9aabc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b580db]
+""2023-05-12 15:41:54 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2023-05-12 15:41:54 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""2023-05-12 15:41:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-05-12 15:41:54 [restartedMain] INFO  c.b.d.BankingApplication3Application - Started BankingApplication3Application in 6.363 seconds (JVM running for 6.873)
+""2023-05-12 15:42:39 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-05-12 15:42:39 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2023-05-12 15:42:39 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+""2023-05-12 15:42:57 [http-nio-8080-exec-4] DEBUG c.b.d.controller.AccountController - Pageable OF 5 Accounts Are Given
+""2023-05-12 15:43:33 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+""2023-05-12 15:43:33 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2023-05-12 15:43:33 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2023-05-12 15:43:33 [Thread-5] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2/java.lang.Thread.run(Thread.java:833)
+""2023-05-12 15:43:33 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-05-12 15:43:33 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-05-12 15:43:33 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"
